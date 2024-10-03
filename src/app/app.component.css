@@ -1,0 +1,95 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position:cover;
+    justify-content: center;
+    justify-items: center;
+}
+    .hero-section {
+      display: flex;
+      justify-content: space-between;
+      position:cover;
+      background-color: #f7f7f7;
+
+    }
+
+      input {
+        display: flex;
+        position: relative;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-left: 10px;
+      }
+      .banner {
+        background-color: #222;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+    .text-light {
+        color: #fff;
+    }
+
+    .btn-market {
+        display: inline-block;
+        background-color: #000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        color: #fff;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 768px) {
+        .align-items-md-end {
+            align-items: flex-end;
+        }
+
+        .flex-md-row {
+            flex-direction: row;
+        }
+    }
+    .store-buttons {
+      display: flex;
+      flex-direction: column; /* Arrange buttons in a column */
+      gap: 20px; /* Space between buttons */
+  }
+
+  .app-store-button,
+  .google-play-button {
+      display: inline-flex;
+      align-items: center;
+      background-color: grey;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+  }
+
+  .app-store-button:hover,
+  .google-play-button:hover {
+      background-color: #606060;
+  }
+
+  .app-store-icon, .playstore-icon {
+      margin-right: 8px; /* Space between icon and text */
+      width: 24px;
+      height: 24px;
+  }
+
+  .app-store-text, .google-play-text {
+      color: white;
+  }
+
